@@ -1,0 +1,86 @@
+/* Font and background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ecf0f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quiz container box */
+.quiz-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #16a085;
+  padding: 40px;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Main title */
+.title {
+  color: #1abc9c;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+/* Question text */
+#question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Options buttons */
+#options button {
+  background-color: #34495e;
+  color: #ecf0f1;
+  border: none;
+  margin: 10px 0;
+  padding: 12px 20px;
+  border-radius: 12px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#options button:hover {
+  background-color: #1abc9c;
+}
+
+#options button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* Next button */
+#next-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #e67e22;
+  color: white;
+  cursor: pointer;
+  display: none;
+  transition: background-color 0.3s ease;
+}
+
+#next-btn:hover {
+  background-color: #d35400;
+}
+
+/* Result text */
+#result {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #f39c12;
+  font-weight: bold;
+}
